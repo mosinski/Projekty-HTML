@@ -1,0 +1,163 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+<title>FILMY EKSTRA</title>
+	<meta name="description" content="description here">
+	<meta name="author" content="content here">
+	<!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<style type="text/css">
+<!--
+-->
+</style>
+<link href="css/pojedyncze.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Modern+Antiqua' rel='stylesheet' type='text/css'>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	background-image: url(images/top.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #E4E4E4;
+}
+
+
+-->
+</style>
+</head>
+<body>
+<!--start wrapper -->
+<div class="wrapper-container">
+  <!--start header -->
+  <div id="header">
+      <!--start search -->
+      <div class="search">
+        <form id="form1" name="form1" method="post" action="">
+          <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+            </span>
+            <input name="b" type="image" src="images/search.gif" class="button" />
+          </label>
+        </form>
+      </div>
+      <!--end search -->
+      </div> 
+  <!--end header -->
+  <!--start content -->
+  <div class="content-wrap" id="content">
+    <div class="slogan"><h2>Nowości Filmowe</h2></div>
+    <!--start nav -->
+    <div id="nav">
+    <div class="menu">
+<ul>
+<li><a href="index.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">START</font></span></a></li>
+<li><a href="wkrotce.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">WKRÓTCE</font></span></a></li>
+<li><a href="#"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">SERIALE</font></span></a></li>
+<li><a href="#"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">INFO</font></span></a></li>
+<li><a href="Bootstrap, from Twitter.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">ZADANIA</font></span></a></li>
+</ul>
+</div>    
+  </div>
+    <!--end nav -->
+    <div class="intro">
+      <div class="read_clik_intro"> 
+    </div>    
+  </div>
+</div>
+<!--end coontent -->
+<!--start main -->
+<div class="main">
+<!--start section -->
+   <div id="section">
+     <div class="post"><h4>Nowość</h4><p><FONT SIZE="5" style="font-family: 'Trade Winds', cursive;"><b>Spadkobiercy</b></font><br>Dramat / Komedia / 115 min.</p></div>
+   <img src="images/sax.jpg" alt="Big Music on Sax"></div><br /><br /><br /><br /><br /><br />
+   <FONT SIZE="4" style="font-family: 'Modern Antiqua', cursive;">Najnowszy film Alexandra Payne’a, trzykrotnie nominowanego do Oscara twórcy "Bezdroży" i "Schmidta", ekranizacja bestsellerowej powieści Kaui Hart Hemmings. Gdy jego żona trafia do szpitala po wypadku, wpływowy biznesmen z Hawajów musi zaopiekować się dwiema kilkunastoletnimi córkami, z którymi wcześniej niewiele go łączyło.<br /><br /><br />
+"Spadkobiercy" to film dla osób wierzących. W trakcie seansu będziecie musieli, na przykład, uwierzyć w to, że można czuć się nieszczęśliwym, będąc najbogatszym mieszkańcem raju na ziemi. No i w to, że istnieją kobiety, które chciałyby zdradzić George'a Clooneya.<br /><br />
+Grany przez gwiazdora Matt King pozornie ma wszystko: żonę i córki jak z okładki "Vivy!", stanowisko i szacunek otoczenia. Bohater jest potomkiem starego rodu, do którego należały kiedyś całe Hawaje. Współcześnie Kingowie nie są już – jak wskazywałoby ich nazwisko –  królami. Na przestrzeni lat rozprzedali większość posiadłości, a zarobioną w ten sposób gotówkę przepuścili w trymiga. Teraz Matt (jedyny rozsądny członek familii) ma zadecydować, czy reszta dziedzictwa trafi w ręce jakiegoś dewelopera, który postawi na wyspie kolejny pięciogwiazdkowy hotel.<br /><br />
+Biznesowy wątek stanowi w filmie punkt odniesienia do "prywatnej" historii Matta. Bohater musi się zaopiekować samotnie swoimi dwiema pociechami po tym, jak jego żona zapadła w śpiączkę w wyniku tragicznego wypadku. Podobnych słodko-gorzkich opowiastek o przyspieszonym kursie ojcostwa oglądaliśmy już w kinie na kopy. W dziele Alexandra Payne'a jest jednak coś ujmującego. Clooney – przez Hollywood stawiany nam za wzór elegancji i dystynkcji – paraduje przez większość filmu w krótkich spodenkach i wzorzystych koszulach. Niepoważny strój ma się nijak do  pytań, na które jego postać próbuje odpowiedzieć. Kiedy przestajemy żyć tylko dla siebie, a zaczynamy dla innych (inaczej ujmując: kiedy ze spadkobierców zamieniamy się w spadkodawców)? Czy jesteśmy warci spuścizny, którą otrzymaliśmy od przodków? I – parafrazując mój ulubiony cytat z "Gladiatora" – czy nasze czyny za życia będą brzmieć echem w wieczności?<br /><br />
+Te – że się tak egzaltowanie wyrażę – fundamentalne dla rodzaju ludzkiego kwestie zostały wplecione w gatunek tragikomedii. Spójrzcie tylko, jak Payne chytrze bawi się nastrojem w scenie, gdy bohater Clooneya dowiaduje się o grzeszkach swej śpiącej królewny. Najpierw widzimy faceta, który czuje się, jakby oberwał bejsbolem w głowę. Jego ułożony, spokojny świat właśnie się zawalił. Chwilę później Clooney zasuwa w japoneczkach przez ulicę w kierunku domu znajomych. Jego widok nie budzi już jednak smutku czy litości. Raczej chichot ze względu na pokraczny chód gwiazdora.  Uśmiech i wzruszenia są w "Spadkobiercach" jak przypływy i odpływy na hawajskich plażach – pojawiają się, by zmyć ślady zostawione na piasku przez poprzedników.</font>
+<!--end section -->
+<br>
+<address>
+<br />
+<br />
+<br />
+Ostatnia Aktualizacja: 25.02.2012 23:54
+</address>
+</aside>
+ <div class="clear"></div>
+ </div>
+<!--end main -->
+</div>
+<!--end wrapper -->
+<!--start footer -->
+<!--start footer -->
+<div class="footer_top">
+  <div class="abox"><h1>Źródła Filowe</h1>
+  <ul>
+  <li><a href="http://www.filmweb.pl/" target="_blank">Film Web</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://www.imdb.com/" target="_blank">IMDb</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://multikino.pl/pl/w-kinie/" target="_blank">Multikino</a></li>
+  </ul>
+  </div>
+<div class="abox"><h1>Przyjaciele</h1>
+  <ul>
+  <li><a href="http://sigma.ug.edu.pl/~khallmann/" target="_blank">Krystian Hallmann</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://tao.inf.ug.edu.pl/" target="_blank">dr Włodzimierz Bzyl</a></li>
+  </ul>
+</div>
+<div class="abox"><h1>Ważne Strony</h1>
+  <ul>
+  <li><a href="http://wbzyl.inf.ug.edu.pl/hcj/" target="_blank">WB@HCJ</a></li>
+  </ul>
+  <ul>
+  <li><a href="https://github.com/wbzyl" target="_blank">GitHub</a></li>
+  </ul>
+  </div>
+</div>
+<!--end footer top -->
+<!--footer -->
+<footer>
+  <div class="footer">
+    <div class="nav_footer">
+    <ul>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Live concert</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Wolrd Tour</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Events</a></li>
+      
+    </ul>
+    <ul>
+      <li><a href="#">Contact</a></li>    
+    </ul>
+    <div class="social"><a href="#"><img src="images/beer_cap_facebook.png" alt="Become a fan"></a><a href="#"><img src="images/drink_twitter.png" alt="Follow on Twitter"></a><a href="#"><img src="images/google.png" alt="google search"></a><a href="#"><img src="images/youtube.png" alt="Youtube channel"></a></div>
+      <br>
+      <details>
+<summary>Project coder & Design <a href="http://www.imediacreatives.it" target="_blank">Imediacreatives</a> Copyright Yoursite.com 2010-2011.</summary>
+</details>
+    </div>
+  </div>
+</footer>
+<!--end footer -->
+<!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+</html>

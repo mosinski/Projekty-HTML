@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-2">
+	<title>The Flower Blog</title>
+	<link rel="stylesheet" href="index_pliki/master.css" type="text/css" media="screen">
+</head>
+<body>
+
+	<header>
+		<h1>mosinski</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="selected"><a href="#">Blog</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Archives</a></li>
+			<li><a href="#">Contact</a></li>
+			<li class="subscribe"><a href="#">Subscribe RSS</a></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<header>
+			<h2>Do you love flowers as much as we do?</h2>
+		</header>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+		<img src="index_pliki/intro_flower.png" alt="Flower">
+	</section>
+	<div id="content">
+		<div id="mainContent">
+			<section>
+				<article class="blogPost">
+					<header>
+						<h2>Przechwytywanie audio i wideo w HTML5</h2>
+						<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p>
+				<div id="browsers">
+	                        <b>Obs

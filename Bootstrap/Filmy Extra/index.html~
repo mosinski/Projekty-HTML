@@ -1,0 +1,186 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+<title>FILMY EKSTRA</title>
+	<meta name="description" content="description here">
+	<meta name="author" content="content here">
+	<!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<style type="text/css">
+<!--
+-->
+</style>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	background-image: url(images/top.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #E4E4E4;
+}
+
+
+-->
+</style>
+</head>
+<body>
+<!--start wrapper -->
+<div class="wrapper-container">
+  <!--start header -->
+  <div id="header">
+      <!--start search -->
+      <div class="search">
+        <form id="form1" name="form1" method="post" action="">
+          <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+            </span>
+            <input name="b" type="image" src="images/search.gif" class="button" />
+          </label>
+        </form>
+      </div>
+      <!--end search -->
+      </div> 
+  <!--end header -->
+  <!--start content -->
+  <div class="content-wrap" id="content">
+    <div class="slogan"><h2>Nowości Filmowe</h2></div>
+    <!--start nav -->
+    <div id="nav">
+    <div class="menu">
+<ul>
+<li><a href="index.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">START</font></span></a></li>
+<li><a href="wkrotce.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">WKRÓTCE</font></span></a></li>
+<li><a href="#"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">SERIALE</font></span></a></li>
+<li><a href="#"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">INFO</font></span></a></li>
+<li><a href="Bootstrap, from Twitter.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">ZADANIA</font></span></a></li>
+</ul>
+</div>    
+  </div>
+    <!--end nav -->
+    <div class="intro">
+      <div class="read_clik_intro">
+        <div class="readmore"> <dfn>Podsumowanie roku 2011 który obfitował w wiele hitów kinowych...</dfn>   
+        </div>
+      <div class="readbutton"><a href="podsumowanie.html">Czytaj</a></div>
+      </div> 
+    </div>    
+  </div>
+<!--end coontent -->
+<!--start main -->
+<div class="main">
+<!--start section -->
+   <div id="section">
+     <div class="post"><h4>Nowość</h4><p><FONT SIZE="5" style="font-family: 'Trade Winds', cursive;"><b>Spadkobiercy</b></font></h3><br>Dramat / Komedia / 115 min.</p>       
+     </div>
+   <img src="images/sax.jpg" alt="Big Music on Sax" width="351" height="500">
+   <h3>Najnowszy film Alexandra Payne’a, reżysera nagrodzonych Oscarem „Bezdroży”, rozgrywa się na Hawajach i opowiada o losach pewnej rodziny. Matt King (George Clooney) ma żonę i dwie córki. Kiedy małżonka ... </h3>
+<div class="readbutton"><a href="pojedyncze.html">Czytaj</a></div>
+<div class="post"><h4>Nowość</h4><p><FONT SIZE="5" style="font-family: 'Trade Winds', cursive;"><b>Sponsoring</b></font><br>Dramat społeczny / 100 min.</p>
+   </div>
+   <img src="images/sponsoring.jpg" alt="Sponsoring" width="351" height="500">
+   <h3>Sceny z życia paryskich studentek dorabiających sobie prostytucją - w obiektywie Małgorzaty Szumowskiej, autorki 33 scen z życia - jednego z najczęściej nagradzanych polskich filmów ostatnich lat.Anna (Juliette Binoche), dobrze sytuowana ... </h3>
+     <div class="readbutton"><a href="#">Czytaj</a></div>
+<div class="post"><h4>Nowość</h4><p><FONT SIZE="5" style="font-family: 'Trade Winds', cursive;"><b>Alvin i Wiewiórki 3</b></font><br>Animowany / Familijny / Komedia / Muzyczny / 87 min.</p>    </div>
+ <img src="images/alvin.jpg" alt="alvin" width="351" height="500">
+   <h3>Najsłynniejsze wiewiórki świata powracają, by przeżyć największą ze swych dotychczasowych przygód.</h3>
+<div class="readbutton"><a href="#">Czytaj</a></div>
+<div class="post"><h4>Nowość</h4><p><FONT SIZE="5" style="font-family: 'Trade Winds', cursive;"><b>Artysta</b></font><br>Dramat / Komedia / Niemy / Romans / 100 min.</p>  
+   </div>
+ <img src="images/artysta.jpg" alt="artysta" width="351" height="500">
+   <h3>Opowieść dzieje się pod koniec lat 20. XX wieku, w czasie przełomu dźwiękowego w filmie. Koniec kina niemego był równocześnie końcem karier wielu gwiazd, będących u szczytu popularności. Czy słynny ... </h3>
+     <div class="readbutton"><a href="#">Czytaj</a></div> 
+</div>
+<!--end section -->
+<aside> 
+<form action="#" method="get">
+Nowości na E-mail: <input type="email" name="user_email" /><br />
+<p align="center"><input type="submit" /></p>
+</form></figure>
+<aside>
+<h4 align="center"><FONT SIZE="5" style="font-family: 'Satisfy', cursive;">Cytat Dnia</font></h4>
+<p align="right"><b>"Mówi sie że nie można żyć bez miłości,<br> osobiście uważam ze ważniejszy jest tlen"<br></b>Dr. House</p></aside>
+<br>
+<address>
+<br />
+<br />
+<br />
+Ostatnia Aktualizacja: 26.02.2012
+</address>
+</aside>
+ <div class="clear"></div>
+ </div>
+<!--end main -->
+</div>
+<!--end wrapper -->
+<!--start footer -->
+<div class="footer_top">
+  <div class="abox"><h1>Źródła Filowe</h1>
+  <ul>
+  <li><a href="http://www.filmweb.pl/" target="_blank">Film Web</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://www.imdb.com/" target="_blank">IMDb</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://multikino.pl/pl/w-kinie/" target="_blank">Multikino</a></li>
+  </ul>
+  </div>
+<div class="abox"><h1>Przyjaciele</h1>
+  <ul>
+  <li><a href="http://sigma.ug.edu.pl/~khallmann/" target="_blank">Krystian Hallmann</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://tao.inf.ug.edu.pl/" target="_blank">dr Włodzimierz Bzyl</a></li>
+  </ul>
+</div>
+<div class="abox"><h1>Ważne Strony</h1>
+  <ul>
+  <li><a href="http://wbzyl.inf.ug.edu.pl/hcj/" target="_blank">WB@HCJ</a></li>
+  </ul>
+  <ul>
+  <li><a href="https://github.com/wbzyl" target="_blank">GitHub</a></li>
+  </ul>
+  </div>
+</div>
+<!--end footer top -->
+<!--footer -->
+<footer>
+  <div class="footer">
+    <div class="nav_footer">
+    <ul>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Live concert</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Wolrd Tour</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Events</a></li>
+      
+    </ul>
+    <ul>
+      <li><a href="#">Contact</a></li>    
+    </ul>
+    <div class="social"><a href="#"><img src="images/beer_cap_facebook.png" alt="Become a fan"></a><a href="#"><img src="images/drink_twitter.png" alt="Follow on Twitter"></a><a href="#"><img src="images/google.png" alt="google search"></a><a href="#"><img src="images/youtube.png" alt="Youtube channel"></a></div>
+      <br>
+      <details>
+<summary>Project coder & Design <a href="http://www.imediacreatives.it" target="_blank">Imediacreatives</a> Copyright Yoursite.com 2010-2011.</summary>
+</details>
+    </div>
+  </div>
+</footer>
+<!--end footer -->
+<!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+</html>

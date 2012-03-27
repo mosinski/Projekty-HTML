@@ -1,0 +1,147 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+<title>FILMY EKSTRA</title>
+	<meta name="description" content="description here">
+	<meta name="author" content="content here">
+	<!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<style type="text/css">
+<!--
+-->
+</style>
+<link href="css/podsumowanie.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	background-image: url(images/top.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #E4E4E4;
+}
+
+
+-->
+</style>
+</head>
+<body>
+<!--start wrapper -->
+<div class="wrapper-container">
+  <!--start header -->
+  <div id="header">
+      <!--start search -->
+      <div class="search">
+        <form id="form1" name="form1" method="post" action="">
+          <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+            </span>
+            <input name="b" type="image" src="images/search.gif" class="button" />
+          </label>
+        </form>
+      </div>
+      <!--end search -->
+      </div> 
+  <!--end header -->
+  <!--start content -->
+  <div class="content-wrap" id="content">
+    <div class="slogan"><h2>Nowości Filmowe</h2></div>
+    <!--start nav -->
+    <div id="nav">
+    <div class="menu">
+<ul>
+<li><a href="index.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">START</font></span></a></li>
+<li><a href="wkrotce.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">WKRÓTCE</font></span></a></li>
+<li><a href="#"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">SERIALE</font></span></a></li>
+<li><a href="#"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">INFO</font></span></a></li>
+<li><a href="Bootstrap, from Twitter.html"><span><FONT SIZE="5" style="font-family: 'Chewy', cursive;">ZADANIA</font></span></a></li>
+</ul>
+</div>    
+  </div>
+    <!--end nav -->
+    <div class="intro">
+<center><object width="1280" height="720"><param name="movie" value="http://www.youtube.com/v/g_p3qroDp-M?version=3&amp;hl=pl_PL&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/g_p3qroDp-M?version=3&amp;hl=pl_PL&amp;rel=0" type="application/x-shockwave-flash" width="1280" height="720" allowscriptaccess="always" allowfullscreen="true"></embed></object></center>
+      <div class="read_clik_intro">
+      </div> 
+    </div>    
+  </div>
+<!--end coontent -->
+<!--start main -->
+<div class="main">
+<!--start section -->
+<p style="font-family: 'MedievalSharp', cursive;"><FONT SIZE="5">Podsumowując mijający już rok nie możemy zapomnieć o dziedzinie sztuki jaką jest film. Liczba produkcji filmowych, która została zrealizowana na świecie w roku 2011 jest trudna do policzenia. O ich ilości może jednak świadczyć mała kompilacja, w której znalazły się fragmenty aż 166 filmów.</font></p>
+<!--end section -->
+ <div class="clear"></div>
+ </div>
+<!--end main -->
+</div>
+<!--end wrapper -->
+<!--start footer -->
+<div class="footer_top">
+  <div class="abox"><h1>Źródła Filowe</h1>
+  <ul>
+  <li><a href="http://www.filmweb.pl/" target="_blank">Film Web</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://www.imdb.com/" target="_blank">IMDb</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://multikino.pl/pl/w-kinie/" target="_blank">Multikino</a></li>
+  </ul>
+  </div>
+<div class="abox"><h1>Przyjaciele</h1>
+  <ul>
+  <li><a href="http://sigma.ug.edu.pl/~khallmann/" target="_blank">Krystian Hallmann</a></li>
+  </ul>
+  <ul>
+  <li><a href="http://tao.inf.ug.edu.pl/" target="_blank">dr Włodzimierz Bzyl</a></li>
+  </ul>
+</div>
+<div class="abox"><h1>Ważne Strony</h1>
+  <ul>
+  <li><a href="http://wbzyl.inf.ug.edu.pl/hcj/" target="_blank">WB@HCJ</a></li>
+  </ul>
+  <ul>
+  <li><a href="https://github.com/wbzyl" target="_blank">GitHub</a></li>
+  </ul>
+  </div>
+</div>
+<!--end footer top -->
+<!--footer -->
+<footer>
+  <div class="footer">
+    <div class="nav_footer">
+    <ul>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Live concert</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Wolrd Tour</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Events</a></li>
+      
+    </ul>
+    <ul>
+      <li><a href="#">Contact</a></li>    
+    </ul>
+    <div class="social"><a href="#"><img src="images/beer_cap_facebook.png" alt="Become a fan"></a><a href="#"><img src="images/drink_twitter.png" alt="Follow on Twitter"></a><a href="#"><img src="images/google.png" alt="google search"></a><a href="#"><img src="images/youtube.png" alt="Youtube channel"></a></div>
+      <br>
+      <details>
+<summary>Project coder & Design <a href="http://www.imediacreatives.it" target="_blank">Imediacreatives</a> Copyright Yoursite.com 2010-2011.</summary>
+</details>
+    </div>
+  </div>
+</footer>
+<!--end footer -->
+<!-- Free template distributed by http://freehtml5templates.com -->
+</body>
+</html>

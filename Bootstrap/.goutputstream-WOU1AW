@@ -1,0 +1,79 @@
+<html>
+<body>
+<title>Plan Niedziela</title>
+<style>
+table { 
+  table-layout: fixed;
+  margin: 0px 0px;
+  width: 1800px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  background: #FFCC00; 
+}
+td    { padding: 8px; border: 2px solid black; background: #008000; }
+#c1   { width: 200px; background: #CCC; }
+#r1 { width: 400px; background: #008080; }
+#r2 { width: 400px; background: #CCC; }
+#day  { width: 200px; color: #804000; background: #FF8000;}
+#hour { padding-left:0; font-size:11;}
+</style>
+<table border="1" CELLSPACING="1" CELLPADDING="5">
+  <colgroup>
+    <col id="c1"><col id="c2">
+    <col id="c3"><col id="c4">
+  </colgroup>
+<tr id="r1">
+    <TH COLSPAN=2>Przedmiot</th>
+    <TH COLSPAN=44>Godziny</th>
+    <TH COLSPAN=2>Sala</th>
+</tr>
+<tr CELLPADDING="5" id="r2">
+    <TH COLSPAN=2 id="day">NIEDZIELA</th>
+<th id="hour">8:15</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">9:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">10:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">11:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">12:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">13:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">14:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">15:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">16:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">17:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">18:00</th>
+    <th>.</th>
+    <th>.</th>
+    <th>.</th>
+    <th id="hour">19:00</th>
+    <th COLSPAN=2></th>
+</tr>
+<tr id="r3">
+    <TH COLSPAN=2>Arch. Serw. Inter. (wyk
