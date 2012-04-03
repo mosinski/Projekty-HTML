@@ -110,7 +110,15 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background:url(http://www.html5rocks.com/static/images/background-home.jpg);
+  background-repeat:no-repeat !important;
+  background-position:0% 0% !important;
+  background-origin: padding-box !important;
+  background-attachment:fixed !important;
+  background-size:cover !important;
+
+
 }
 a {
   color: #0088cc;
@@ -2597,6 +2605,10 @@ button.btn.small, input[type="submit"].btn.small {
   -ms-transition: none;
   -o-transition: none;
   transition: none;
+  padding-left: 29px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJ5JREFUeNpi+P//PwMQMANxERCfAeI/UBrEZwbJQ9WAFR0A4u1AbAnEbFB6O1ScGaawGoi3wHQiYyBYDZKHKbwHxLo4FOqC5GEKf4Ksw6EQ5IyfIDYTkPEUiNUZsAOQ+F9GRkYJEKcFiDficSOIcRjE4QTiY0C8DuRbqAJLKP8/FP9kQArHUiA+jySJjA8w4LAS5KZd0MAHhaccQIABALsMiBZy4YLtAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: 12px 8px;
 }
 .navbar-search .search-query :-moz-placeholder {
   color: #eeeeee;
@@ -2619,6 +2631,8 @@ button.btn.small, input[type="submit"].btn.small {
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   outline: 0;
+  padding-left: 30px;
+  background-position: 13px 9px;
 }
 .navbar-fixed-top {
   position: fixed;
@@ -2659,7 +2673,7 @@ button.btn.small, input[type="submit"].btn.small {
 .navbar .nav > li > a:hover {
   background-color: transparent;
   text-decoration: none;
-  text-shadow:0pt 1px 0pt red, 0pt 0pt 30px red;
+  text-shadow:0pt 1px 0pt blue, 0pt 0pt 15px blue;
   color: #ffffff;
 }
 .navbar .nav .active > a, .navbar .nav .active  {
@@ -3476,6 +3490,24 @@ a.thumbnail:hover {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+}
+.hero-sobota {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height: 325px;
+}
+.hero-niedziela {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height: 373px;
 }
 .hero-unit h1 {
   margin-bottom: 0;

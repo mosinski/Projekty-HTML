@@ -47,7 +47,16 @@ p {
 	padding-bottom: 22px;
 }
 
-
+h1 ul a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+		}
+		
+h1 ul a:hover {
+	font-weight: bold;
+	font-size: 20px;
+			}
 
 /*------------------------------
 =NAVIGATION
@@ -163,9 +172,9 @@ nav {
 #content {
 	display: table;
 }
-
-	#mainContent {
+ {
 		display: table-cell;
+	#mainContent
 		width: 620px;
 		padding-right: 22px;
 	}
@@ -191,7 +200,15 @@ nav {
 			text-decoration: none;
 			color: #000;
 		}
-
+.blogPost h2 a{
+	text-decoration: none;
+	color: #000;
+		}
+		
+.blogPost h2 a:hover {
+	font-weight: bold;
+	text-shadow:0pt 1px 0pt blue, 0pt 0pt 2px blue;
+			}
 
 .blogPost div {
 	/* Column-count not implemented yet */
@@ -329,7 +346,6 @@ aside section {
 		
 			aside section ul li a:hover {
 				font-weight: bold;
-
 				font-size: 20px;
 			}
 
