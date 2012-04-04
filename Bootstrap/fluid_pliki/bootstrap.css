@@ -128,6 +128,17 @@ a:hover {
   color: #005580;
   text-decoration: underline;
 }
+a#forkme_banner{
+position: absolute;
+bottom:0pt;
+right:0pt;
+width:136px;
+height:135px;
+display:block;
+background:url("../img/fork-me-on-github.png") no-repeat scroll 0pt 0pt transparent;
+text-indent:-9000px;
+z-index:3;
+}
 .row {
   margin-left: -20px;
   *zoom: 1;
