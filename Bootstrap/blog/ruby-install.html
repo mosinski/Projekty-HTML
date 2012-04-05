@@ -31,20 +31,40 @@
 			<section>
 				<article class="blogPost">
 					<header>
-						<h2>Jak wyłączyć Unity w Ubuntu</h2>
-<p>Spostowano <time datetime="2009-06-29T23:31+01:00">2 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
-	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="od ubuntu 10.0 do 11.4">
+						<h2><a href="ubuntu-unity.html">Instalacja Ruby on Rails</a></h2>
+						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">4 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                       <b>Obsługiwane wersje Linuksa:</b><img src="index_pliki/ikony/ubuntu.png" title="ubuntu"><img src="index_pliki/ikony/fedora.png" title="fedora"><img src="index_pliki/ikony/mandriva.jpg" title="mandriva"><img src="index_pliki/ikony/mint.png" title="mint">
 					</header>
 					<div>
-				<p>Zanimy wyłączymy Unity warto zrobić sobie skróty na pulpicie programów by później nie było płaczu..<br>
-					Gdy już to uczynimy sprawa jest dość prosta wystarczy postępować według następujących kroków:</p>
-						<p><b>Wyłączanie Unity</b><br>
-				Musimy się dostać do ogólnych programów następnie do "Menadżer Ustawień CompizConfig.
-				<br>Przechodzimy do zakładki Pulpit<br>Odznaczamy Ubuntu Unity Plugin<img src="index_pliki/ikony/unity.png" alt="unity" title="Ubuntu Unity Plugin"> i w tym momencie znika nam unity<br></p>
-						</div>
+				<p>Oto kilka kroków jakie należy wykonać aby zainstalować Ruby on Rails poprawnie!</p>
+				<p><BIG>Krok 1</BIG><br>
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">sudo apt-get install git</textarea></div>
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">sudo apt-get install curl</textarea></div></p>
+				<p><BIG>Krok 2: Instalacja RVM (Ruby Version Manager)</BIG><br>
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)</textarea></div>
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">gedit ~/.bashrc</textarea></div><br>
+Dopisujemy:
+<div id="kod"><textarea style="width: 600px; height:35px;" onclick="this.focus();this.select();"  readonly="readonly">[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*</textarea></div><br>
+Zamykamy i zapisujemy<br>
+Wczytujemy od nowa plik .bachrc do systemu
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">source ~/.bashrc</textarea></div><br>
+RVM zainstalowany. Aby sprawdzić czy wszystko działa poprawnie wpisujemy:
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">type rvm | head -1</textarea></div><br>
+Jeżeli wszystko jest poprawnie uzyskamy odpowiedź:
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">rvm is a function</textarea></div><br>
+Trzeba jeszcze doinstalować kilka bibliotek:
+<div id="kod"><textarea style="width: 600px; height:50px;" onclick="this.focus();this.select();"  readonly="readonly">sudo apt-get install build-essential openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion</textarea></div></p>
+				<p><BIG>Krok 3: Instalacja Ruby</BIG><br>
+Instalujemy Ruby-ego przez RVM poleceniem:
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">rvm install 1.9.2</textarea></div><br>
+Następnie ustalamy aby standardowo uzywany był ruby 1.9.2 lub nowszy!
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">rvm use 1.9.2</textarea></div><br>
+Sprawdzamy czy wszystko działa poprawnie:
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">ruby -v</textarea></div><br>
+</div>
 				</article>
 			</section>
-			<section id="comments">
+		<section id="comments">
 				<h3>Komentarze</h3>
 				<article>
 				</article>
@@ -78,7 +98,7 @@
 				<ul>
 					<li><a href="index.html">HTML5</a></li>
 					<li><a href="ubuntu.html">UBUNTU</a></li>
-					<li><a href="ruby.html">Ruby&Rails</a></li>
+					<li><a href="rails.html">Ruby&Rails</a></li>
 					<li><a href="#">Do eiusmod tempor</a></li>
 					<li><a href="#">Incididunt ut labore</a></li>
 				</ul>
