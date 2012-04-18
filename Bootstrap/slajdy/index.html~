@@ -169,11 +169,11 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
   }, false);
   </script>
 
-<article data-total-slides="20" data-slide-num="7" class="slide">
+ <article data-total-slides="20" data-slide-num="7" class="slide">
   <header><h3>Przyszłość 3D w życiu</h3></header>
   <section class="hbox ">
-<div id="video-column" class="center">
-              <video width="800" height="500" controls>
+  <div id="video-column" class="center">
+              <video width="800" height="520" controls>
 		<source src="index_pliki/film.bin" type="video/webm; codecs="vp8, vorbis"">
 		<source src="index_pliki/film.mp4" type="video/mp4; codecs="avc1.42E01E, mp4a.40.2"">
 		<source src="index_pliki/film.webm" type="video/webm; codecs="vp8, vorbis"">
@@ -182,7 +182,27 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
               </video>
             </div>
   </section>
-</article>
+
+
+ </article>
+    <article data-total-slides="20" data-slide-num="8" class="slide">
+   <header><h3>3D w Polsce</h3></header>
+    <li class="to-build"><label class="underline" style="font-size:150%">P</label>ierwszym Polskim filmem w technologi 3D jest historyczny film
+„1920 Bitwa Warszawska”</li>
+    <li class="to-build"><label class="underline" style="font-size:150%">E</label>fekty stereoskopowe przygotowało PAY Studio<img src="index_pliki/pay.jpg"></li>
+    <li class="to-build"><label class="underline" style="font-size:150%">E</label>fektami komputerowymi zajęło się ATM FX.<img src="index_pliki/atm.png"></li>
+    <li class="to-build"><center><img src="index_pliki/bitwa.png"></center>
+ </article>
+
+ </article>
+    <article data-total-slides="20" data-slide-num="9" class="slide">
+   <header><h3>Koniec</h3></header>
+    <p class="centered"><label class="underline" style="font-size:150%;">The End</label></p>
+    <p class="centered"><label class="underline" style="font-size:150%">Ende</label></p>
+    <p class="centered"><label class="underline" style="font-size:150%">Fin</label></p>
+    <p class="centered"><label class="underline" style="font-size:150%">Final</label></p>
+ </article>
+
 
 <div id="prev-slide-area" class="slide-area"></div><div id="next-slide-area" class="slide-area"></div></section>
 
