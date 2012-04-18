@@ -5,6 +5,6 @@ Aby ją obejrzeć wystarczy zajrzeć na tą stronę:
 ##
 > http://sigma.ug.edu.pl/~mosinski/ <br />
 
-pzdr .:M1L05Z:.
+pzdr .:<b>M1L05Z</b>:.
 
 
