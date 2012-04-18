@@ -48,9 +48,11 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
   <article data-total-slides="20" data-slide-num="1" class="fill current">
     <img src="index_pliki/3d.jpg">
+	<div id="poczatek">
     <h2 class="white shadow" style="bottom:60px;text-shadow: 1px 1px 3px #554;">
     Jak Powstają Filmy 3D<br>
     <span style="font-size:70%"> Miłosz Osiński </span>
+	</div>
     </h2>
   </article>
 
@@ -60,7 +62,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
     <ul class="build">
       <li class="to-build"><label class="underline" style="font-size:150%">E</label>fekt trójwymiarowy można uzyskać dzięki stereoskopii</li>
       <li class="to-build"><label class="underline" style="font-size:150%">W</label>ymaga dostarczenia do mózgu dwóch obrazów, widzianych z perspektywy lewego i prawego oka.
-      </li><li class="to-build"><center><img src="index_pliki/obraz3d.jpg"></center>
+      </li><li class="to-build"><center><img src="index_pliki/widok.png"></center>
     </li></ul>
   </article>
 
@@ -171,7 +173,6 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
  <article data-total-slides="20" data-slide-num="7" class="slide">
   <header><h3>Przyszłość 3D w życiu</h3></header>
-  <section class="hbox ">
   <div id="video-column" class="center">
               <video width="800" height="520" controls>
 		<source src="index_pliki/film.bin" type="video/webm; codecs="vp8, vorbis"">
@@ -181,11 +182,19 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
                 Your browser does not support the video tag
               </video>
             </div>
-  </section>
-
-
  </article>
-    <article data-total-slides="20" data-slide-num="8" class="slide">
+
+
+ <article data-total-slides="20" data-slide-num="8" class="slide">
+  <header><h3>Przyszłość 3D w życiu</h3></header>
+ <p class="centered">Technologia z filmiku</p>
+	<div class="noflex vbox boxcenter" style="height:300px;text-align:center">
+               <input id="speech-input-field" type="text" x-webkit-speech />
+              </div>
+	<li class="to-build"><p class="centered">Fajne prawda ?</p></li>
+ </article>
+
+    <article data-total-slides="20" data-slide-num="9" class="slide">
    <header><h3>3D w Polsce</h3></header>
     <li class="to-build"><label class="underline" style="font-size:150%">P</label>ierwszym Polskim filmem w technologi 3D jest historyczny film
 „1920 Bitwa Warszawska”</li>
@@ -195,12 +204,13 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  </article>
 
  </article>
-    <article data-total-slides="20" data-slide-num="9" class="slide">
+    <article data-total-slides="20" data-slide-num="10" class="slide">
    <header><h3>Koniec</h3></header>
     <p class="centered"><label class="underline" style="font-size:150%;">The End</label></p>
     <p class="centered"><label class="underline" style="font-size:150%">Ende</label></p>
     <p class="centered"><label class="underline" style="font-size:150%">Fin</label></p>
     <p class="centered"><label class="underline" style="font-size:150%">Final</label></p>
+    <p class="centered"><img src="index_pliki/uklon.gif"></p>
  </article>
 
 
@@ -252,5 +262,5 @@ function url2png(url,size){
 </script>
 
 
-
+<link href='http://fonts.googleapis.com/css?family=Modern+Antiqua' rel='stylesheet' type='text/css'>
 <link href="index_pliki/styles.css" type="text/css" rel="stylesheet"><script src="index_pliki/prettify.js" type="text/javascript"></script></body></html>
