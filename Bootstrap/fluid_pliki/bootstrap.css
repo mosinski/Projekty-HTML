@@ -2536,6 +2536,9 @@ button.btn.small, input[type="submit"].btn.small {
   text-decoration: none;
   color: white;
 }
+.googleplus {
+  margin-top: 7px;
+}
 .navbar .brand {
   float: left;
   display: block;

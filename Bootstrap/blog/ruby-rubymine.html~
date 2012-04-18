@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>mosinski blog</title>
+	<link rel="Shortcut icon" href="index_pliki/ikony/logo.png" />
+	<link rel="stylesheet" href="index_pliki/master.css" type="text/css" media="screen">
+</head>
+<body>
+
+	<header>
+		<h1>mosinski</h1>
+	</header>
+	<nav>
+		<ul>
+			<li class="selected"><a href="#">Blog</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Archives</a></li>
+			<li><a href="#">Contact</a></li>
+			<li class="subscribe"><a href="#">Subscribe RSS</a></li>
+		</ul>
+	</nav>
+	<section id="intro">
+		<header>
+			<h2>A ty co sądzisz o html5?</h2>
+		</header>
+		<p>HTML5 jest wszechobecny platforma do internetu. Nieważne, czy jesteś mobile web developer, przedsiębiorstwo z konkretnych potrzeb biznesowych, lub poważne dev gra do odkrywania w internecie jako nową platformę, HTML5 ma coś dla Ciebie!</p>
+		<img src="index_pliki/images/html5_logo.png" alt="Flower">
+	</section>
+	<div id="content">
+		<div id="mainContent">
+			<section>
+				<article class="blogPost">
+					<header>
+						<h2><a href="ruby-rubymine.html">Instalacja RubyMine i dodanie go do Dock'a</a></h2>
+						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">12 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                       <b>Obsługiwane wersje Linuksa:</b><img src="index_pliki/ikony/ubuntu.png" title="ubuntu"><img src="index_pliki/ikony/fedora.png" title="fedora"><img src="index_pliki/ikony/mandriva.png" title="mandriva"><img src="index_pliki/ikony/mint.png" title="mint"><img src="index_pliki/ikony/windows.png" title="Windows"><img src="index_pliki/ikony/macos.png" title="Mac Os">
+					</header>
+					<div>
+				<p>RubyMine to bardzo fajny program do łatwego tworzenia projektów w Ruby on Rails.<img src="index_pliki/ikony/rubymine.png" alt="rubymine" title="RubyMine"><br>
+			Aby go zainstalować wystarczy ściągnąć go <a href="http://download.jetbrains.com/ruby/RubyMine_4.0.2.tar.gz">stąd</a></p>
+						<p><b>Krok 1</b><br>
+	Zatem ściągneliśmy paczke z gotowym RubyMine teraz wystarczy go wypakować i umieścić w jakimś folderze lub np. na Pulpicie.
+					<p><b>Dodanie do Dock'a</b><br>
+	Wystarczy wejść do folderu: <b>RubyMinebin-4.2.1/bin</b><br>Klikamy <b>rubymine.sh</b> i wybieramy <b>Uruchom</b><br>
+	W pasku Dock'a klikamy prawym <b>Dodaj Aktywator</b><br>Aby dodać ikone klikamy prawy <b>Dostosuj Ikone</b> i wybieramy ją z folderu bin.<br>
+	I to wszystko Powodzenia !<br>
+						</div>
+				</article>
+			</section>
+			<section id="comments">
+				<h3>Komentarze</h3>
+				<article>
+				</article>
+			</section>
+			<form action="#" method="post">
+				<h3>Napisz Komentarz</h3>
+				<p>
+					<label for="name">Imię/Nick</label>
+					<input name="name" id="name" required="" type="text">
+				</p>
+				<p>
+					<label for="email">E-mail</label>
+					<input name="email" id="email" required="" type="email">
+				</p>
+				<p>
+					<label for="website">Strona WWW</label>
+					<input name="website" id="website" type="url">
+				</p>
+				<p>
+					<label for="comment">Treść Komentarza</label>
+					<textarea name="comment" id="comment" required=""></textarea>
+				</p>
+				<p><input value="Dodaj Komentarz" type="submit"></p>
+			</form>
+		</div>
+		<aside>
+			<section>
+				<header>
+					<h3>Kategorie</h3>
+				</header>
+				<ul>
+					<li><a href="index.html">HTML5</a></li>
+					<li><a href="ubuntu.html">UBUNTU</a></li>
+					<li><a href="ruby.html">Ruby&Rails</a></li>
+					<li><a href="#">Do eiusmod tempor</a></li>
+					<li><a href="#">Incididunt ut labore</a></li>
+				</ul>
+			</section>
+			<section>
+				<header>
+					<h3>Archiwum</h3>
+				</header>
+				<ul>
+					<li><a href="#">December 2008</a></li>
+					<li><a href="#">January 2009</a></li>
+					<li><a href="#">February 2009</a></li>
+					<li><a href="#">March 2009</a></li>
+					<li><a href="#">April 2009</a></li>
+					<li><a href="#">May 2009</a></li>
+					<li><a href="#">June 2009</a></li>
+				</ul>
+			</section>
+		</aside>
+	</div>
+	<footer>
+		<div>
+			<section id="about">
+				<header>
+					<h3>About</h3>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation ullamco <a href="#">laboris nisi ut aliquip</a>
+ ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+ mollit anim id est laborum.</p>
+			</section>
+			<section id="blogroll">
+				<header>
+					<h3>Blogroll</h3>
+				</header>
+				<ul>
+					<li><a href="#">NETTUTS+</a></li>
+					<li><a href="#">FreelanceSwitch</a></li>
+					<li><a href="#">In The Woods</a></li>
+					<li><a href="#">Netsetter</a></li>
+					<li><a href="#">PSDTUTS+</a></li>
+				</ul>
+			</section>
+			<section id="popular">
+				<header>
+					<h3>Popular</h3>
+				</header>
+				<ul>
+					<li><a href="#">This is the title of a blog post</a></li>
+					<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+					<li><a href="#">Consectetur adipisicing elit, sed do eiusmod</a></li>
+					<li><a href="#">Duis aute irure dolor</a></li>
+					<li><a href="#">Excepteur sint occaecat cupidatat</a></li>
+					<li><a href="#">Reprehenderit in voluptate velit</a></li>
+					<li><a href="#">Officia deserunt mollit anim id est laborum</a></li>
+					<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+				</ul>
+			</section>
+		</div>
+	</footer>
+	
+
+</body></html>

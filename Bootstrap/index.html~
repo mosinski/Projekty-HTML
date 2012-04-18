@@ -13,6 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Modern+Antiqua' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
     <style type="text/css">
+	
       body {
         padding-top: 60px;
         padding-bottom: 40px;
@@ -27,6 +28,19 @@
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+<!-- Umieść ten tag w miejscu, w którym chcesz wygenerować przycisk +1. -->
+
+
+<!-- Umieść to wywołanie generujące w odpowiednim miejscu. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pl'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/examples/images/favicon.ico">
@@ -60,11 +74,21 @@
 			<li><a href="https://github.com/" target="_blank"><i class="icon-chevron-right"></i>GitHub</a></li>
 			</ul>
 			</li>
-<center><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/subscribe.php?href=https%3A%2F%2Fwww.facebook.com%2Fm1l05z&amp;layout=button_count&amp;show_faces=true&amp;colorscheme=light&amp;font&amp;width=200&amp;appId=223109594375281" style="border:none; overflow:hidden; width:200px;height:25px;margin-top:7px;"></iframe></center>
-            </ul>
+<div class="g-plusone" data-size="medium" data-href="http://sigma.ug.edu.pl/~mosinski/"></div>
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/subscribe.php?href=https%3A%2F%2Fwww.facebook.com%2Fm1l05z&amp;layout=button_count&amp;show_faces=true&amp;colorscheme=light&amp;font&amp;width=200&amp;appId=223109594375281" style="border:none; overflow:hidden; width:200px;height:25px;margin-top:7px;"></iframe>
+           </ul>
 	<form class="navbar-search pull-right" action="https://www.google.pl">
     		<input type="text" class="search-query" placeholder="Wyszukiwarka Google">
     	</form>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pl'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -149,6 +173,7 @@ Kolokwium 14.04.2012r.</pre>
     <script src="fluid_pliki/bootstrap-collapse.js"></script>
     <script src="fluid_pliki/bootstrap-carousel.js"></script>
     <script src="fluid_pliki/bootstrap-typeahead.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
   
 
