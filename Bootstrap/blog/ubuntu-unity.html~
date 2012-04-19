@@ -31,17 +31,16 @@
 			<section>
 				<article class="blogPost">
 					<header>
-						<h2>Jak uzyskać dostęp do użytkownika Root</h2></a>
-						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">4 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
-	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="wszystkie">
+						<h2>Jak wyłączyć Unity w Ubuntu</h2>
+<p>Spostowano <time datetime="2009-06-29T23:31+01:00">2 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="od ubuntu 10.0 do 11.4">
 					</header>
 					<div>
-				<p>Pamiętaj że przez ten zabieg uzyskujesz status superużytkownika i można nieźle namieszać<br>
-			Stanie się użytkownikiem Root jest bardzo proste wystarczy komenda "su" lecz trzeba znać hasło lub raczej jes ustalić.</p>
-						<p><b>Odblokowanie Roota</b><br>
-			Na początek musimy otworzyć terminal (CTR+ALT+T) jeśli niedziała to tradycyjnie :p
-				<br>wpisujemy następującą rzecz:</p>
-<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">sudo passwd root</textarea></div><br>i pokolei wpisujemy to o co nas proszą czyli hasło linuksa a później ustalamy hasło do roota. Gdy wszystko zrobimy poprawnie naszym oczom ukaże się następująca rzecz:<br><img src="index_pliki/images/root.png" alt="root" title="Successfull"><br>No i to by było na tyle!
+				<p>Zanimy wyłączymy Unity warto zrobić sobie skróty na pulpicie programów by później nie było płaczu..<br>
+					Gdy już to uczynimy sprawa jest dość prosta wystarczy postępować według następujących kroków:</p>
+						<p><b>Wyłączanie Unity</b><br>
+				Musimy się dostać do ogólnych programów następnie do "Menadżer Ustawień CompizConfig.
+				<br>Przechodzimy do zakładki Pulpit<br>Odznaczamy Ubuntu Unity Plugin<img src="index_pliki/ikony/unity.png" alt="unity" title="Ubuntu Unity Plugin"> i w tym momencie znika nam unity<br></p>
 						</div>
 				</article>
 			</section>
@@ -77,10 +76,11 @@
 					<h3>Kategorie</h3>
 				</header>
 				<ul>
-					<li><a href="index.html">Aktualności</a></li>
-					<li><a href="html5.html">HTML5</a></li>
+					<li><a href="index.html">HTML5</a></li>
 					<li><a href="ubuntu.html">UBUNTU</a></li>
 					<li><a href="ruby.html">Ruby&Rails</a></li>
+					<li><a href="#">Do eiusmod tempor</a></li>
+					<li><a href="#">Incididunt ut labore</a></li>
 				</ul>
 			</section>
 			<section>

@@ -12,7 +12,7 @@
 	</header>
 	<nav>
 		<ul>
-			<li class="selected"><a href="#">Blog</a></li>
+			<li class="selected"><a href="index.html">Blog</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Archives</a></li>
 			<li><a href="#">Contact</a></li>
@@ -31,48 +31,12 @@
 			<section>
 				<article class="blogPost">
 					<header>
-						<h2>Przechwytywanie audio i wideo w HTML5</h2>
-						<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p>
-	                        <b>Obsługiwane przeglądarki:</b><img src="index_pliki/ikony/opera-icon.png" alt="opera" title="OPERA">
-				<img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/>
-					</header>
-					<div>
-				<p>Uwaga: Niniejszy artykuł omawia API, które nie są jeszcze w pełni znormalizowane i ciągle w ruchu. Bądź ostrożny przy użyciu eksperymentalnego API w swoich projektach. <br></p>
-						<p><b>Wprowadzanie</b><br>
-Audio / Nagrywanie wideo został nazwany "Święty Graalem" tworzenia stron internetowych przez dłuższy czas. Przez wiele lat mieliśmy polegać na pluginach przeglądarek (Flash lub Silverlight), aby ukończyć pracę. Co to ma być!
-<br>HTML5 przychodzi na ratunek. Może nie jest to oczywiste, ale wzrost na HTML5 przyniósł wzrost dostępu do sprzętu urządzenia. Geolokalizacja (GPS), Orientacja API (akcelerometr), WebGL (GPU) i Web audio API (audio hardware) są doskonałymi przykładami. Funkcje te są śmiesznie potężny, wystawiając na wysokim szczeblu JavaScript API, które zasiadania w górnej części systemu w podstawowych możliwościach sprzętowych.
-Ten poradnik wprowadza nowe API, navigator.getUserMedia (), która pozwala aplikacje webowe, aby uzyskać dostęp użytkownika kamery i mikrofonu.<p>
-						<p><b>Droga do getUserMedia ()</b><br>
-Jeśli nie jesteś świadomy tej historii, jakim sposobem dotarliśmy do getUserMedia () API to bardzo ciekawa historia.<br>
-Kilka wariantów "Media Przechwytywanie API" zmieniały się na przestrzeni ostatnich kilku lat. Wielu ludzi uznaje potrzebę, aby móc uzyskać dostęp do rodzimych urządzeń w sieci, ale to doprowadziło wszystkich i ich mamy do ułożenia nowej specyfikacji. Sprawy stała się tak poplątane, że W3C ostatecznie zdecydowali się stworzyć grupę roboczą. Ich jedynym celem? Sens szaleństwa!Urządzenie Polityka API (DAP) Grupa robocza ma za zadanie skonsolidować + standaryzacji mnóstwo propozycji.<br>Postaram się podsumować, co się stało w 2011 roku ...<p>
-						<p><BIG>Runda 1: HTML Mediów Przechwytywanie</BIG><br>
-HTML Mediów Przechwytywanie było PDN pierwszym go dążącym do standaryzacji przechwytywanie obrazu w internecie. Jego działanie polega na przeciążeniu &lt;input type="file"&gt; i dodawanie nowych wartości do zaakceptowania parametru.Jeśli chciałbyś, umożliwić użytkownikom zrobienie zdjęcie siebie z kamery, to możliwe uchwycić aparat =:</p>
-<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly"><input type="file" accept="image/*;capture=camera"></textarea></div>
-						<p>Nagrywanie wideo lub audio jest podobne:</p>
-<div id="kod"><textarea style="width: 600px; height:30px;" onclick="this.focus();this.select();"  readonly="readonly">
-<input type="file" accept="video/*;capture=camcorder">
-<input type="file" accept="audio/*;capture=microphone"></textarea></div>
-						<p>Przyznacie że ładnie? Szczególnie podoba mi się, że używa ponownie plik wejściowy. Semantycznie, to sprawia, że ​​wiele sensu. Przypadku, gdy dany "API" jest daleki jest możliwość zrobić czasie rzeczywistym efektów (np. renderowania dynamicznych danych kamery do &lt;canvas&gt; i zastosować WebGL filtrów). HTML Mediów przechwytywanie tylko pozwala na nagrywanie pliku multimedialnego lub zrobić zdjęcie w czasie.<br>
-Wsparcie:<br>
-    > Android 3.0 przeglądarka - jedno z pierwszych wdrożeń.<br>
-    > Chrome dla Androida (0.16)</p>
-						<p><BIG>Runda 2: Element urządzenia</BIG><br>
-Wielu myślało, HTML przechwytywania mediów była zbyt ograniczające, więc nowa specyfikacja okazało się, że obsługiwany każdy rodzaj (przyszłych) urządzenia. Nic dziwnego, że projekt wezwał do stworzenia nowego elementu, element &lt;device&gt;, która stała się poprzednikiem getUserMedia ().
-Opera była jedną z pierwszych przeglądarek, aby utworzyć pierwsze implementacje przechwytywania wideo oparte na elemencie &lt;device&gt;. Wkrótce potem (tego samego dnia być precyzyjne), WHATWG postanowił złom tag &lt;device&gt; na rzecz innego, oraz, Comer tym razem JavaScript API o nazwie navigator.getUserMedia ().Tydzień później, Opera położyć nowe buildy, które obejmowały wsparcie dla zaktualizowanego getUserMedia () spec. Później tego roku, Microsoft dołączył do partii zwalniając laboratorium dla IE9 wspiera nową specyfikację.<br>
-Oto jak &lt;device&gt; wyglądałaby tak:<br>
-<div id="kod"><textarea style="width: 600px; height:110px;" onclick="this.focus();this.select();"  readonly="readonly">
-<device type="media" onchange="update(this.data)"></device>
-<video autoplay></video>
-<script>
-  function update(stream) {
-    document.querySelector('video').src = stream.url;
-  }
-</script></textarea></div><br>
-Wsparcie:<br>
-Niestety, nie wydano przeglądarkę zawierającą &lt;device&gt;. Jeden mniej API martwić myślę :) &lt;device&gt; miał dwie wielkie rzeczy będzie dla niego jednak:.1). Był semantyczny i 2) to był łatwo rozszerzalny do obsługi więcej niż tylko urządzenia audio / wideo.
-Weź oddech. Te rzeczy zmieniają się szybko!</p>
-						<p><BIG>Runda 3: WebRTC</BIG><br>
-Element &lt;device&gt; ostatecznie poszedł drogą Dodo.<br>Tempo w celu znalezienia odpowiedniego API przechwytywania przyspieszył w ostatnich miesiącach dzięki większej wysiłku nazwie WebRTC (Web Prawdziwi Komunikacja czasu).Spec jest nadzorowana przez WebRTC W3C Working Group. Google, Opera, Mozilla, i kilka innych są obecnie prace nad przynosząc implementacje swoich przeglądarkach.</div>
+			<h2>Relacja z 8. SFI - <br>Studencki Festiwal Informatyczny<img src="index_pliki/ikony/nowosci.png" alt="aktualnosci"/></h2>
+			<p>Ostatnia modyfikacja <time datetime="2012-04-19T20:31+01:00">Kwiecień 19 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 Komentarzy</a></p>
+	                        <b>Wstęp</b></header>
+	<div><p><BIG>Przez trzy dni w Krakowie można było wysłuchać wielu wykładów, wziąć udział w trzech warsztatach i niemałej liczbie konkursów.</BIG><br></p>
+				<p><b>Film z rewelacyjną relacją z 8. SFI:</b><br>
+<iframe frameborder="0" width="630" height="400" src="http://www.dailymotion.com/embed/video/xpd5va"></iframe></div>
 				</article>
 			</section>
 			<section id="comments">
@@ -126,19 +90,18 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
 		<aside>
 			<section>
 				<header>
-					<h3>Kategorie</h3>
+					<img src="index_pliki/ikony/kategorie.png" alt="Flower"><font size="5"><b>Kategorie</b></font>
 				</header>
 				<ul>
-					<li><a href="index.html">HTML5</a></li>
+					<li><a href="index.html">Aktualności</a></li>
+					<li><a href="html5.html">HTML5</a></li>
 					<li><a href="ubuntu.html">UBUNTU</a></li>
 					<li><a href="ruby.html">Ruby&Rails</a></li>
-					<li><a href="#">Do eiusmod tempor</a></li>
-					<li><a href="#">Incididunt ut labore</a></li>
 				</ul>
 			</section>
 			<section>
 				<header>
-					<h3>Archiwum</h3>
+					<p><img src="index_pliki/ikony/archiwum.png" alt="Flower"><font size="5"><b>Archiwum</b></font></p>
 				</header>
 				<ul>
 					<li><a href="#">December 2008</a></li>

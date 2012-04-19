@@ -42,7 +42,7 @@
 	Zatem ściągneliśmy paczke z gotowym RubyMine teraz wystarczy go wypakować i umieścić w jakimś folderze lub np. na Pulpicie.
 					<p><b>Dodanie do Dock'a</b><br>
 	Wystarczy wejść do folderu: <b>RubyMinebin-4.2.1/bin</b><br>Klikamy <b>rubymine.sh</b> i wybieramy <b>Uruchom</b><br>
-	W pasku Dock'a klikamy prawym <b>Dodaj Aktywator</b><br>Aby dodać ikone klikamy prawy <b>Dostosuj Ikone</b> i wybieramy ją z folderu bin.<br>
+	W pasku Dock'a klikamy prawym <b>Dodaj Aktywator</b><br>Aby dodać ikone klikamy prawy <b>Dostosuj Ikone</b> i wybieramy ją z folderu <b>bin</b>.<br>
 	I to wszystko Powodzenia !<br>
 						</div>
 				</article>

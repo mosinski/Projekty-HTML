@@ -31,21 +31,46 @@
 			<section>
 				<article class="blogPost">
 					<header>
-						<h2>Jak uzyskać dostęp do użytkownika Root</h2></a>
-						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">4 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+						<h2><a href="ubuntu-unity.html">Jak wyłączyć Unity w Ubuntu</a></h2>
+						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">2 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                       <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="od ubuntu 10.0 do 11.4">
+					</header>
+					<div>
+				<p>Zanimy wyłączymy Unity warto zrobić sobie skróty na pulpicie programów by później nie było płaczu..<br>
+					Gdy już to uczynimy sprawa jest dość prosta wystarczy postępować według następujących kroków:</p></div>
+				</article>
+			<article class="blogPost">
+						<header>
+						<h2><a href="ubuntu-dock.html">Jak dodać praktyczny Dock</a></h2>
+						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">2 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="od ubuntu 10.0 do 11.4">
+					</header>
+					<div>
+				<p>Nazwa docka którego chcemy dodać to AWN<br>
+			Dock jest przejrzysty ale zawiera również w sobie wiele opcji aby go zainstalować należy wykonać następujące kroki:</p></div>
+				</article>
+			<article class="blogPost">
+						<header>
+						<h2><a href="ubuntu-gftp.html">Łączenie się z sigmą jak WinScp</a></h2>
+<p>Spostowano <time datetime="2009-06-29T23:31+01:00">3 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="od ubuntu 10.0 do 11.4">
+					</header>
+					<div>
+				<p>Nazwa programu który jest odpowiednikiem WinScp z Windows to gFTP<br>
+			To bardzo fajny program graficzne łączenie się z sigmą jest proste i nie wymaga żadnych konfiguracji..</p></div>
+				</article>
+			<article class="blogPost">
+						<header>
+						<h2><a href="ubuntu-root.html">Jak uzyskać dostęp do użytkownika Root</a></h2>
+<p>Spostowano <time datetime="2009-06-29T23:31+01:00">4 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
 	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="wszystkie">
 					</header>
 					<div>
 				<p>Pamiętaj że przez ten zabieg uzyskujesz status superużytkownika i można nieźle namieszać<br>
-			Stanie się użytkownikiem Root jest bardzo proste wystarczy komenda "su" lecz trzeba znać hasło lub raczej jes ustalić.</p>
-						<p><b>Odblokowanie Roota</b><br>
-			Na początek musimy otworzyć terminal (CTR+ALT+T) jeśli niedziała to tradycyjnie :p
-				<br>wpisujemy następującą rzecz:</p>
-<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">sudo passwd root</textarea></div><br>i pokolei wpisujemy to o co nas proszą czyli hasło linuksa a później ustalamy hasło do roota. Gdy wszystko zrobimy poprawnie naszym oczom ukaże się następująca rzecz:<br><img src="index_pliki/images/root.png" alt="root" title="Successfull"><br>No i to by było na tyle!
-						</div>
+			Stanie się użytkownikiem Root jest bardzo proste wystarczy komenda "su" lecz trzeba znać hasło ...</p></div>
 				</article>
 			</section>
-			<section id="comments">
+		<section id="comments">
 				<h3>Komentarze</h3>
 				<article>
 				</article>
@@ -77,10 +102,11 @@
 					<h3>Kategorie</h3>
 				</header>
 				<ul>
-					<li><a href="index.html">Aktualności</a></li>
-					<li><a href="html5.html">HTML5</a></li>
+					<li><a href="index.html">HTML5</a></li>
 					<li><a href="ubuntu.html">UBUNTU</a></li>
 					<li><a href="ruby.html">Ruby&Rails</a></li>
+					<li><a href="#">Do eiusmod tempor</a></li>
+					<li><a href="#">Incididunt ut labore</a></li>
 				</ul>
 			</section>
 			<section>

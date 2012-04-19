@@ -31,17 +31,22 @@
 			<section>
 				<article class="blogPost">
 					<header>
-						<h2>Jak uzyskać dostęp do użytkownika Root</h2></a>
-						<p>Spostowano <time datetime="2009-06-29T23:31+01:00">4 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
-	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="wszystkie">
+						<h2>Jak dodać praktyczny Dock</h2>
+<p>Spostowano <time datetime="2009-06-29T23:31+01:00">2 Kwiecień 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 comments</a></p>
+	                        <b>Obsługiwane wersje Ubuntu:</b><img src="index_pliki/ikony/ubuntu.png" alt="ubuntu" title="od ubuntu 10.0 do 11.4">
 					</header>
 					<div>
-				<p>Pamiętaj że przez ten zabieg uzyskujesz status superużytkownika i można nieźle namieszać<br>
-			Stanie się użytkownikiem Root jest bardzo proste wystarczy komenda "su" lecz trzeba znać hasło lub raczej jes ustalić.</p>
-						<p><b>Odblokowanie Roota</b><br>
-			Na początek musimy otworzyć terminal (CTR+ALT+T) jeśli niedziała to tradycyjnie :p
-				<br>wpisujemy następującą rzecz:</p>
-<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">sudo passwd root</textarea></div><br>i pokolei wpisujemy to o co nas proszą czyli hasło linuksa a później ustalamy hasło do roota. Gdy wszystko zrobimy poprawnie naszym oczom ukaże się następująca rzecz:<br><img src="index_pliki/images/root.png" alt="root" title="Successfull"><br>No i to by było na tyle!
+				<p>Nazwa docka którego chcemy dodać to AWN <img src="index_pliki/ikony/awn.png" alt="awn" title="Nawigator Okien Avant 0.4.1"><br>
+			Dock jest przejrzysty ale zawiera również w sobie wiele opcji aby go zainstalować należy wykonać następujące kroki:</p>
+						<p><b>Instalacja</b><br>
+	Musimy się dostać do Centrum oprogramowania Ubuntu<img src="index_pliki/ikony/COU2.png" alt="cou" title="Centrum Oprogramowania Ubuntu">.
+				<br>W wyszukiwarce w prawym górnym rogu piszemy "AWN" i instalujemy:<br>awn-settings 0.4.1<br>Avant-window-navigator</p>
+					<p><b>Konfiguracja</b><br>
+					<BIG>Dodanie skrótu</BIG><br>
+	Jesli chcemy dodać jakieś skróty do docka nic prostrzego. Klikamy prawym > Ustawienia > Aplety wyszukujemy co nas interesuje i dodajemy.<br>
+	Aby ustawić kolejność ikonek w docku w Apletach na dole jest Aktywuj Aplety i tam "łapiemy ikonke" i przesuwamy w dowolne miejsce.<br>
+					<BIG>WAŻNE!</BIG><br>
+	Należy pamiętać żeby kliknąc będąc w ustawieniach docka zaznaczyć opcje "uruchom Awn przy starcie systemu" w zakłade Preferencje na dole. 
 						</div>
 				</article>
 			</section>
@@ -77,10 +82,11 @@
 					<h3>Kategorie</h3>
 				</header>
 				<ul>
-					<li><a href="index.html">Aktualności</a></li>
-					<li><a href="html5.html">HTML5</a></li>
+					<li><a href="index.html">HTML5</a></li>
 					<li><a href="ubuntu.html">UBUNTU</a></li>
 					<li><a href="ruby.html">Ruby&Rails</a></li>
+					<li><a href="#">Do eiusmod tempor</a></li>
+					<li><a href="#">Incididunt ut labore</a></li>
 				</ul>
 			</section>
 			<section>
