@@ -29,8 +29,17 @@
 	<div id="content">
 		<div id="mainContent">
 			<section>
-				<article class="blogPost">
-					<header>
+			<article class="blogPost">
+			<header>
+			<h2>Antygoogle - czyli polityka firmy<img src="index_pliki/ikony/nowosci.png" alt="aktualnosci"/></h2>
+			<p>Ostatnia modyfikacja <time datetime="2012-04-20T12:31+01:00">Kwiecień 20 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 Komentarzy</a></p>
+	                        <b>Wstęp</b></header>
+	<div><p><BIG>Nie mam nic do samych produktów Google’a, bo są to produkty naprawdę wysokiej jakości, nie podoba mi się natomiast polityka firmy, która ostatnio staję się coraz bardziej agresywna i nastawiona tylko i wyłącznie na zysk pomijając aspekt wizerunku i dobra klientów.</BIG><br></p>
+				<p><b>Dla rozluźnienia mam dla Was trochę teorii spiskowych:</b><br>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/usnb8CaDDdQ" frameborder="0" allowfullscreen></iframe></div>
+				</article>
+			<article class="blogPost">
+			<header>
 			<h2>Relacja z 8. SFI - <br>Studencki Festiwal Informatyczny<img src="index_pliki/ikony/nowosci.png" alt="aktualnosci"/></h2>
 			<p>Ostatnia modyfikacja <time datetime="2012-04-19T20:31+01:00">Kwiecień 19 2012</time> przez <a href="#">M1L05Z</a> - <a href="#comments">0 Komentarzy</a></p>
 	                        <b>Wstęp</b></header>
@@ -42,28 +51,6 @@
 			<section id="comments">
 				<h3>Komentarze</h3>
 				<article>
-					<header>
-						<a href="#">George Washington</a> on <time datetime="2009-06-29T23:35:20+01:00">June 29th 2009 at 23:35</time>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-				</article>
-				<article>
-					<header>
-						<a href="#">Benjamin Franklin</a> on <time datetime="2009-06-29T23:40:09+01:00">June 29th 2009 at 23:40</time>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-				</article>
-				<article>
-					<header>
-						<a href="#">Barack Obama</a> on <time datetime="2009-06-29T23:59:00+01:00">June 29th 2009 at 23:59</time>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
 				</article>
 			</section>
 			<form action="#" method="post">
@@ -90,10 +77,10 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
 		<aside>
 			<section>
 				<header>
-					<img src="index_pliki/ikony/kategorie.png" alt="Flower"><font size="6"><b>Kategorie</b></font>
+					<img src="index_pliki/ikony/kategorie.png" alt="Flower"><font size="5"><b>Kategorie</b></font>
 				</header>
 				<ul>
-					<li><a href="index.html">Aktualności</a></li>
+					<li><a href="index.html">NEWS</a></li>
 					<li><a href="html5.html">HTML5</a></li>
 					<li><a href="ubuntu.html">UBUNTU</a></li>
 					<li><a href="ruby.html">Ruby&Rails</a></li>
@@ -101,7 +88,7 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
 			</section>
 			<section>
 				<header>
-					<p><img src="index_pliki/ikony/archiwum.png" alt="Flower"><font size="6"><b>Archiwum</b></font></p>
+					<p><img src="index_pliki/ikony/archiwum.png" alt="Flower"><font size="5"><b>Archiwum</b></font></p>
 				</header>
 				<ul>
 					<li><a href="#">December 2008</a></li>
