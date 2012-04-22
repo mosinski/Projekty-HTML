@@ -85,12 +85,12 @@ setTimeout("zegar()",1000);}
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li class="nav-header">Tabelki</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="./tabelki/zad1-kurczaki.html" target="_blank">Kurczaki</a></li>
+              <li><a href="./tabelki/zad2-XVI w.html" target="_blank">XVIw.</a></li>
+              <li><a href="./tabelki/zad3-populacja.html" target="_blank">Populacja</a></li>
+	      <li><a href="./tabelki/zad4-Worksheet.html" target="_blank">Worksheet</a></li>
+	      <li><a href="./tabelki/zad5-AT&T.html" target="_blank">AT&T</a></li>
+	      <li><a href="./tabelki/zad6-Chart.html" target="_blank">Chart</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
