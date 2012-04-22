@@ -34,7 +34,7 @@
 						<h2>Przechwytywanie audio i wideo w HTML5</h2>
 						<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p>
 	                        <b>Obsługiwane przeglądarki:</b><img src="index_pliki/ikony/opera-icon.png" alt="opera" title="OPERA">
-				<img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/>
+				<img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/><img src="index_pliki/ikony/firefox-icon.png" alt="firefox" title="MOZILLA FIREFOX"/>
 					</header>
 					<div>
 				<p>Uwaga: Niniejszy artykuł omawia API, które nie są jeszcze w pełni znormalizowane i ciągle w ruchu. Bądź ostrożny przy użyciu eksperymentalnego API w swoich projektach. <br></p>

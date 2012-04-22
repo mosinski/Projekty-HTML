@@ -80,15 +80,14 @@ setTimeout("zegar()",1000);}
               <li class="nav-header">Menu</li>
               <li><a href="strona/prosta_strona.html" target="_blank">Czysty HTML</a></li>
               <li><a href="#">CSS</a></li>
-              <li><a href="#">Bootstrap</a></li>
+              <li><a href="http://twitter.github.com/bootstrap/examples/fluid.html" target="_blank">Bootstrap</a></li>
+              <li class="nav-header">Plan Zajęć</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
               <li class="nav-header">Tabelki</li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>

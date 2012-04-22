@@ -74,11 +74,10 @@
 			<li><a href="https://github.com/" target="_blank"><i class="icon-chevron-right"></i>GitHub</a></li>
 			</ul>
 			</li>
-<div class="g-plusone" data-size="medium" data-href="http://sigma.ug.edu.pl/~mosinski/"></div>
 <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/subscribe.php?href=https%3A%2F%2Fwww.facebook.com%2Fm1l05z&amp;layout=button_count&amp;show_faces=true&amp;colorscheme=light&amp;font&amp;width=200&amp;appId=223109594375281" style="border:none; overflow:hidden; width:200px;height:25px;margin-top:7px;"></iframe>
            </ul>
-	<form class="navbar-search pull-right" action="https://www.google.pl">
-    		<input type="text" class="search-query" placeholder="Wyszukiwarka Google">
+	<form class="navbar-search pull-right" onsubit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;" action="http://sigma.ug.edu.pl/~mosinski/" method="get">
+    		<input id="s" type="text" class="search-query" value="" name="" placeholder="Wyszukiwarka Google">
     	</form>
 <script type="text/javascript">
   window.___gcfg = {lang: 'pl'};
@@ -112,6 +111,8 @@
 	      <li><a href="./tabelki/zad4-Worksheet.html" target="_blank"><i class="icon-list"></i>Worksheet</a></li>
 	      <li><a href="./tabelki/zad5-AT&T.html" target="_blank"><i class="icon-list"></i>AT&T</a></li>
 	      <li><a href="./tabelki/zad6-Chart.html" target="_blank"><i class="icon-list"></i>Chart</a></li>
+	      <li class="nav-header">Pokaz Slajdów</li>
+	      <li><a href="./slajdy/index.html" target="_blank"><i class="icon-film"></i>Filmy 3D</a></li>
               <li class="nav-header">Blog</li>
 	      <li><a href="./blog/index.html" target="_blank"><i class="icon-bold"></i>mosinski blog</a></li>
             </ul>
