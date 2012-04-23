@@ -225,13 +225,17 @@ nav {
 	color: white;
 	background: #8b9dc3;
 }
-	
+
+.blogPost div #podstawa {
+	font-family:monospace,monospace;
+	font-size:1em;
+	color: blue;
+}
 	
 .blogPost img {
 	margin: 0px 0;
 	-webkit-box-shadow: 3px 3px 7px #777;
 }
-
 
 
 /*------------------------------

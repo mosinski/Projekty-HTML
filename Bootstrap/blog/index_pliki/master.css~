@@ -47,7 +47,16 @@ p {
 	padding-bottom: 22px;
 }
 
-
+h1 ul a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+		}
+		
+h1 ul a:hover {
+	font-weight: bold;
+	font-size: 20px;
+			}
 
 /*------------------------------
 =NAVIGATION
@@ -130,7 +139,7 @@ nav {
 	}
 	
 	#intro h2 {
-		padding: 0 0 22px 0;
+		padding: 0 0 2px 0;
 		font-weight: normal;
 		color: #3b5998;
 		font-size: 40px;
@@ -163,9 +172,9 @@ nav {
 #content {
 	display: table;
 }
-
-	#mainContent {
+ {
 		display: table-cell;
+	#mainContent
 		width: 620px;
 		padding-right: 22px;
 	}
@@ -191,7 +200,15 @@ nav {
 			text-decoration: none;
 			color: #000;
 		}
-
+.blogPost h2 a{
+	text-decoration: none;
+	color: #000;
+		}
+		
+.blogPost h2 a:hover {
+	font-weight: bold;
+	text-shadow:0pt 1px 0pt blue, 0pt 0pt 2px blue;
+			}
 
 .blogPost div {
 	/* Column-count not implemented yet */
@@ -208,13 +225,22 @@ nav {
 	color: white;
 	background: #8b9dc3;
 }
-	
+
+.blogPost div #podstawa {
+	font-family:monospace,monospace;
+	font-size:1em;
+	color: green;
+}
+.blogPost div #uwaga {
+	font-family:monospace,monospace;
+	font-size:1em;
+	color: red;
+}	
 	
 .blogPost img {
 	margin: 0px 0;
 	-webkit-box-shadow: 3px 3px 7px #777;
 }
-
 
 
 /*------------------------------
@@ -329,7 +355,6 @@ aside section {
 		
 			aside section ul li a:hover {
 				font-weight: bold;
-
 				font-size: 20px;
 			}
 

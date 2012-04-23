@@ -32,16 +32,18 @@
 				<article class="blogPost">
 					<header>
 						<h2>Przechwytywanie audio i wideo w HTML5</h2>
-						<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p>
-	                        <b>Obsługiwane przeglądarki:</b><img src="index_pliki/ikony/opera-icon.png" alt="opera" title="OPERA">
-				<img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/><img src="index_pliki/ikony/firefox-icon.png" alt="firefox" title="MOZILLA FIREFOX"/>
-					</header>
+<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p> <b>Obsługiwane przeglądarki:</b><img src="index_pliki/ikony/opera-icon.png" alt="opera" title="OPERA"><img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/><img src="index_pliki/ikony/firefox-icon.png" alt="firefox" title="MOZILLA FIREFOX"/></header><br>
 					<div>
-				<p>Uwaga: Niniejszy artykuł omawia API, które nie są jeszcze w pełni znormalizowane i ciągle w ruchu. Bądź ostrożny przy użyciu eksperymentalnego API w swoich projektach. <br></p>
-						<p><b>Wprowadzanie</b><br>
-Audio / Nagrywanie wideo został nazwany "Święty Graalem" tworzenia stron internetowych przez dłuższy czas. Przez wiele lat mieliśmy polegać na pluginach przeglądarek (Flash lub Silverlight), aby ukończyć pracę. Co to ma być!
-<br>HTML5 przychodzi na ratunek. Może nie jest to oczywiste, ale wzrost na HTML5 przyniósł wzrost dostępu do sprzętu urządzenia. Geolokalizacja (GPS), Orientacja API (akcelerometr), WebGL (GPU) i Web audio API (audio hardware) są doskonałymi przykładami. Funkcje te są śmiesznie potężny, wystawiając na wysokim szczeblu JavaScript API, które zasiadania w górnej części systemu w podstawowych możliwościach sprzętowych.
-Ten poradnik wprowadza nowe API, navigator.getUserMedia (), która pozwala aplikacje webowe, aby uzyskać dostęp użytkownika kamery i mikrofonu.<p>
+						<p><BIG>Wstęp</BIG><br>
+Aby wszystkie cześci artukułu działały poprawnie należy otworzyć go z najnowszej przeglądarki Opera lub Chrome.<br>
+W Chrome +18 należy w pasku wyszukiwania wpisać:
+<div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">chrome:flags</textarea></div><br>
+Następnie włączyć  getUserMedia():<br>
+<img src="index_pliki/images/chrome-flags.png"/><br>
+W Operze sytuacja wygląda następująco, trzeba ściągnąć najnowszą wersje Experymentalną przeglądarki:<br>
+<li><a href="http://snapshot.opera.com/labs/camera-and-pages/Linux-FreeBSD/">Wersja na Linux'a</a></li>
+<li><a href="http://snapshot.opera.com/labs/camera-and-pages/Opera-Labs-Camera-and-Pages-12.00-1113.exe">Wersja na Windows'a</a></li></p>
+
 						<p><b>Droga do getUserMedia ()</b><br>
 Jeśli nie jesteś świadomy tej historii, jakim sposobem dotarliśmy do getUserMedia () API to bardzo ciekawa historia.<br>
 Kilka wariantów "Media Przechwytywanie API" zmieniały się na przestrzeni ostatnich kilku lat. Wielu ludzi uznaje potrzebę, aby móc uzyskać dostęp do rodzimych urządzeń w sieci, ale to doprowadziło wszystkich i ich mamy do ułożenia nowej specyfikacji. Sprawy stała się tak poplątane, że W3C ostatecznie zdecydowali się stworzyć grupę roboczą. Ich jedynym celem? Sens szaleństwa!Urządzenie Polityka API (DAP) Grupa robocza ma za zadanie skonsolidować + standaryzacji mnóstwo propozycji.<br>Postaram się podsumować, co się stało w 2011 roku ...<p>
@@ -80,12 +82,15 @@ Element &lt;device&gt; ostatecznie poszedł drogą Dodo.<br>Tempo w celu znalezi
 <iframe width="640" height="480" src="http://www.youtube.com/embed/lifNIRfWQXA?rel=0" frameborder="0" allowfullscreen></iframe><br> 
 
 <font color="#000066"><img src="index_pliki/ikony/chrome-icon.png" alt="chrome">Google zaimplementował do swojej przeglądarki WebRTC od Chrome 18+.</font><br></div>
-
+<div style="text-align:center;">
+<video id="basic-stream" class="videostream" autoplay="" src="index_pliki/basicdemo" controls="" style="z-index: 1000; visibility: visible; position: relative; "></video>
+  <p><button id="capture-button">Capture video</button> <button id="stop-button">Stop</button></p>
+</div>
 <br><br>
 <b>Ciekawe Linki</b><br>
 https://apprtc.appspot.com/?r=96207493<br>
 http://neave.com/webcam/html5/<br>
-http://html5camera.com/
+http://html5camera.com/</p>
 				</article>
 			</section>
 			<section id="comments">
