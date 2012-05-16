@@ -72,6 +72,7 @@
 			<li><b>Strony</b></li>
 			<li><a href="http://ug.yai.pl/" target="_blank"><i class="icon-chevron-right"></i>Forum</a></li>
 			<li><a href="https://github.com/" target="_blank"><i class="icon-chevron-right"></i>GitHub</a></li>
+			<li><a href="http://wbzyl.inf.ug.edu.pl/lista/" target="_blank"><i class="icon-chevron-right"></i>Lista Wbzyl</a></li>
 			</ul>
 			</li>
 <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://www.facebook.com/plugins/subscribe.php?href=https%3A%2F%2Fwww.facebook.com%2Fm1l05z&amp;layout=button_count&amp;show_faces=true&amp;colorscheme=light&amp;font&amp;width=200&amp;appId=223109594375281" style="border:none; overflow:hidden; width:200px;height:25px;margin-top:7px;"></iframe>
@@ -115,6 +116,8 @@
 	      <li><a href="./slajdy/index.html" target="_blank"><i class="icon-film"></i>Filmy 3D</a></li>
               <li class="nav-header">Blog</li>
 	      <li><a href="./blog/index.html" target="_blank"><i class="icon-bold"></i>mosinski blog</a></li>
+              <li class="nav-header">Rails Aplikacja</li>
+	      <li><a href="http://napsterug.herokuapp.com/" target="_blank"><i class="icon-headphones"></i>Napster</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
