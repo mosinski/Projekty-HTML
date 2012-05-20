@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="pl">
+<head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>mosinski blog</title>
 	<link rel="Shortcut icon" href="index_pliki/ikony/logo.png" />
 	<link rel="stylesheet" href="index_pliki/master.css" type="text/css" media="screen">
+
 </head>
 <body>
 
@@ -32,9 +34,9 @@
 				<article class="blogPost">
 					<header>
 						<h2>Przechwytywanie audio i wideo w HTML5</h2>
-<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p> <b>Obsługiwane przeglądarki:</b><img src="index_pliki/ikony/opera-icon.png" alt="opera" title="OPERA"><img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/><img src="index_pliki/ikony/firefox-icon.png" alt="firefox" title="MOZILLA FIREFOX"/></header><br>
+<p>Posted on <time datetime="2009-06-29T23:31+01:00">June 29th 2009</time> by <a href="#">Mads Kjaer</a> - <a href="#comments">3 comments</a></p> <b>Obsługiwane przeglądarki:</b><img src="index_pliki/ikony/opera-icon.png" alt="opera" title="OPERA"><img src="index_pliki/ikony/chrome.png" alt="chrome" title="CHROME"/></header><br>
 					<div>
-						<p><BIG>Wstęp</BIG><br>
+						<p><h3><u>Wstęp</u></h3><br>
 Aby wszystkie cześci artukułu działały poprawnie należy otworzyć go z najnowszej przeglądarki Opera lub Chrome.<br>
 W Chrome +18 należy w pasku wyszukiwania wpisać:
 <div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly">chrome:flags</textarea></div><br>
@@ -43,11 +45,10 @@ Następnie włączyć  getUserMedia():<br>
 W Operze sytuacja wygląda następująco, trzeba ściągnąć najnowszą wersje Experymentalną przeglądarki:<br>
 <li><a href="http://snapshot.opera.com/labs/camera-and-pages/Linux-FreeBSD/">Wersja na Linux'a</a></li>
 <li><a href="http://snapshot.opera.com/labs/camera-and-pages/Opera-Labs-Camera-and-Pages-12.00-1113.exe">Wersja na Windows'a</a></li></p>
-
 						<p><b>Droga do getUserMedia ()</b><br>
 Jeśli nie jesteś świadomy tej historii, jakim sposobem dotarliśmy do getUserMedia () API to bardzo ciekawa historia.<br>
 Kilka wariantów "Media Przechwytywanie API" zmieniały się na przestrzeni ostatnich kilku lat. Wielu ludzi uznaje potrzebę, aby móc uzyskać dostęp do rodzimych urządzeń w sieci, ale to doprowadziło wszystkich i ich mamy do ułożenia nowej specyfikacji. Sprawy stała się tak poplątane, że W3C ostatecznie zdecydowali się stworzyć grupę roboczą. Ich jedynym celem? Sens szaleństwa!Urządzenie Polityka API (DAP) Grupa robocza ma za zadanie skonsolidować + standaryzacji mnóstwo propozycji.<br>Postaram się podsumować, co się stało w 2011 roku ...<p>
-						<p><BIG>Runda 1: HTML Mediów Przechwytywanie</BIG><br>
+						<p><h3><u>Runda 1: HTML Mediów Przechwytywanie</u></h3><br>
 HTML Mediów Przechwytywanie było PDN pierwszym go dążącym do standaryzacji przechwytywanie obrazu w internecie. Jego działanie polega na przeciążeniu &lt;input type="file"&gt; i dodawanie nowych wartości do zaakceptowania parametru.Jeśli chciałbyś, umożliwić użytkownikom zrobienie zdjęcie siebie z kamery, to możliwe uchwycić aparat =:</p>
 <div id="kod"><textarea style="width: 600px; height:20px;" onclick="this.focus();this.select();"  readonly="readonly"><input type="file" accept="image/*;capture=camera"></textarea></div>
 						<p>Nagrywanie wideo lub audio jest podobne:</p>
@@ -57,8 +58,10 @@ HTML Mediów Przechwytywanie było PDN pierwszym go dążącym do standaryzacji 
 						<p>Przyznacie że ładnie? Szczególnie podoba mi się, że używa ponownie plik wejściowy. Semantycznie, to sprawia, że ​​wiele sensu. Przypadku, gdy dany "API" jest daleki jest możliwość zrobić czasie rzeczywistym efektów (np. renderowania dynamicznych danych kamery do &lt;canvas&gt; i zastosować WebGL filtrów). HTML Mediów przechwytywanie tylko pozwala na nagrywanie pliku multimedialnego lub zrobić zdjęcie w czasie.<br>
 Wsparcie:<br>
     > Android 3.0 przeglądarka - jedno z pierwszych wdrożeń.<br>
-    > Chrome dla Androida (0.16)</p>
-						<p><BIG>Runda 2: Element urządzenia</BIG><br>
+    > Chrome dla Androida (0.16)<br><br>
+Przykład do tego jest <a href="http://www.youtube.com/watch?feature=player_embedded&v=L1XqvLOi-3I">Tutaj</a></p>
+
+						<p><h3><u>Runda 2: Element urządzenia</u></h3><br>
 Wielu myślało, HTML przechwytywania mediów była zbyt ograniczające, więc nowa specyfikacja okazało się, że obsługiwany każdy rodzaj (przyszłych) urządzenia. Nic dziwnego, że projekt wezwał do stworzenia nowego elementu, element &lt;device&gt;, która stała się poprzednikiem getUserMedia ().
 Opera była jedną z pierwszych przeglądarek, aby utworzyć pierwsze implementacje przechwytywania wideo oparte na elemencie &lt;device&gt;. Wkrótce potem (tego samego dnia być precyzyjne), WHATWG postanowił złom tag &lt;device&gt; na rzecz innego, oraz, Comer tym razem JavaScript API o nazwie navigator.getUserMedia ().Tydzień później, Opera położyć nowe buildy, które obejmowały wsparcie dla zaktualizowanego getUserMedia () spec. Później tego roku, Microsoft dołączył do partii zwalniając laboratorium dla IE9 wspiera nową specyfikację.<br>
 Oto jak &lt;device&gt; wyglądałaby tak:<br>
@@ -73,52 +76,41 @@ Oto jak &lt;device&gt; wyglądałaby tak:<br>
 Wsparcie:<br>
 Niestety, nie wydano przeglądarkę zawierającą &lt;device&gt;. Jeden mniej API martwić myślę :) &lt;device&gt; miał dwie wielkie rzeczy będzie dla niego jednak:.1). Był semantyczny i 2) to był łatwo rozszerzalny do obsługi więcej niż tylko urządzenia audio / wideo.
 Weź oddech. Te rzeczy zmieniają się szybko!</p>
-						<p><BIG>Runda 3: WebRTC</BIG><br>
-Element &lt;device&gt; ostatecznie poszedł drogą Dodo.<br>Tempo w celu znalezienia odpowiedniego API przechwytywania przyspieszył w ostatnich miesiącach dzięki większej wysiłku nazwie WebRTC (Web Prawdziwi Komunikacja czasu).Spec jest nadzorowana przez WebRTC W3C Working Group. Google, Opera, Mozilla, i kilka innych są obecnie prace nad przynosząc implementacje swoich przeglądarkach.<br>
+						<p><h3><u>Runda 3: WebRTC</u></h3><br>
+WebRTC to otwarty projekt, który ma na celu umożliwienie komunikacji w czasie rzeczywistym za pośrednictwem prostych API dla języka JavaScript. W efekcie, z poziomu przeglądarki, bez dodatkowych wtyczek, ma być możliwe przesyłanie plików i prowadzenie rozmów, również wideo. Inicjatywę wspierają Mozilla, Google i Opera. API pojawiają się tu i tam, ale jak dotąd mało kto zdaje sobie sprawę z ich obecności w przeglądarce. Jednak idzie ku lepszemu.<br>
 
-<font color="#580000"><img src="index_pliki/ikony/opera.png" alt="opera">Opera zaimplementowała API w wydanej pod koniec lutego 12 wersji przeglądarki Opera Mobile. Na liście promowanych nowości znalazł się WebGL, ale mało kto zauważył, że Opera Mobile 12 przechodziła test sprawdzający obecność WebRTC. Za pomocą prostej aplikacji da się nawet skorzystać z możliwości rozmowy z poziomu Opery Mobile.</font><br>
+<font color="#580000"><img src="index_pliki/ikony/opera.png" alt="opera"> Opera zaimplementowała API w wydanej pod koniec lutego 12 wersji przeglądarki Opera Mobile. Na liście promowanych nowości znalazł się WebGL, ale mało kto zauważył, że Opera Mobile 12 przechodziła test sprawdzający obecność WebRTC. Za pomocą prostej aplikacji da się nawet skorzystać z możliwości rozmowy z poziomu Opery Mobile.</font><br>
+<video controls width="640" height="360">
+  <source src="http://dl.dropbox.com/u/3531958/iphone/webrtc-opera-mobile-12.mp4" codecs='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></source>
+  <source src="http://dl.dropbox.com/u/3531958/iphone/webrtc-opera-mobile-12.ogv" codecs='video/ogg; codecs="theora"'></source>
+  <source src="http://dl.dropbox.com/u/3531958/iphone/webrtc-opera-mobile-12.webm" codecs='video/webm; codecs="vp8"'></source>
+</video>
 
-<font color="#006600"><img src="index_pliki/ikony/mozilla.gif" alt="mozilla">Mozilla z kolei zaprezentowała możliwości komunikacji za pośrednictwem WebRTC w Firefoksie podczas konferencji IETF 83 w Paryżu w zeszłym tygodniu. W demonstracji Mozilli możemy zobaczyć prostego klienta, umożliwiającego rozmowy wideo, opartego na rozszerzeniu Personas i SocialAPI.</font><br>
-<iframe width="640" height="480" src="http://www.youtube.com/embed/lifNIRfWQXA?rel=0" frameborder="0" allowfullscreen></iframe><br> 
+<font color="#006600"><img src="index_pliki/ikony/mozilla.gif" alt="mozilla"> Mozilla z kolei zaprezentowała możliwości komunikacji za pośrednictwem WebRTC w Firefoksie podczas konferencji IETF 83 w Paryżu w zeszłym tygodniu. W demonstracji Mozilli możemy zobaczyć prostego klienta, umożliwiającego rozmowy wideo, opartego na rozszerzeniu Personas i SocialAPI. Mozilla nazwała ten dodatek "Rainbow" <a href="https://addons.mozilla.org/en-US/firefox/addon/mozilla-labs-rainbow/">Rainbow Download</a></font><br>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/lifNIRfWQXA?rel=0" frameborder="0" allowfullscreen></iframe><br>
 
-<font color="#000066"><img src="index_pliki/ikony/chrome-icon.png" alt="chrome">Google zaimplementował do swojej przeglądarki WebRTC od Chrome 18+.</font><br></div>
-<div style="text-align:center;">
-<video id="basic-stream" class="videostream" autoplay="" src="" controls="" style="z-index: 1000; visibility: visible; position: relative; "></video>
-  <p><button id="capture-button">Capture video</button> <button id="stop-button">Stop</button></p>
-</div>
-<br><br>
-<b>Ciekawe Linki</b><br>
-https://apprtc.appspot.com/?r=96207493<br>
-http://neave.com/webcam/html5/<br>
-http://html5camera.com/</p>
+<font color="#000066"><img src="index_pliki/ikony/chrome-icon.png" alt="chrome"> Google zaimplementował do swojej przeglądarki WebRTC od Chrome 18+.</font><br><br>
+
+<font color="#CC3300"><img src="index_pliki/ikony/wykrzyknik.png" alt="wykrzyknik"><b> Z końcem 2013 roku Technologia ta będzie już standardowo w każdej przeglądarce<br>(taki jest termin ustalony przez W3C i WHATWG)</b></font></br>
+							<p><h3><u>A teraz przykłady..</u></h3><br>
+<BIG>1. </BIG><b>Jako pierwszą strone oferującą webRTC chciałbym wam przedstawić :</b> <a href="http://apprtc.appspot.com/">http://apprtc.appspot.com/</a><br>
+Umożliwia ona rozmowe typu Chat z drugą osobą na jednym z dostępnych kanałów od "=1" do "=99999999*"<br>
+Pliki do tego przykładu są dostępne <a href="http://code.google.com/p/webrtc-samples/source/browse/trunk/apprtc/#apprtc%253Fstate%253Dclosed">Tutaj</a><br><br>
+<BIG>2. </BIG><b>Drugim przykładem jest ta oto strona :</b> <a href="http://miernicki.com/cam.html">http://miernicki.com/cam.html</a><br>
+To prosty przykład pokazyjący możliwość zrobienia zdjęcia<br>
+<b>bardziej zaawansowany przykład :</b> <a href="http://html5camera.com/">http://html5camera.com/</a><br><br>
+<BIG>3. </BIG><b>Prosty przykład dla Opery dla każdego :</b> <a href="demo.html">Tutaj</a><br>
+Oto przykład który sam może zainicjalizować gotowy plik: 
+ </p></div>
+
 				</article>
 			</section>
 			<section id="comments">
-				<h3>Komentarze</h3>
-				<article>
-					<header>
-						<a href="#">George Washington</a> on <time datetime="2009-06-29T23:35:20+01:00">June 29th 2009 at 23:35</time>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-				</article>
-				<article>
-					<header>
-						<a href="#">Benjamin Franklin</a> on <time datetime="2009-06-29T23:40:09+01:00">June 29th 2009 at 23:40</time>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-				</article>
-				<article>
-					<header>
-						<a href="#">Barack Obama</a> on <time datetime="2009-06-29T23:59:00+01:00">June 29th 2009 at 23:59</time>
-					</header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
- eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-				</article>
+				<h3>Ciekawe Linki</h3>
+Strona projektu WebRTC: <a href="http://www.webrtc.org/home">http://www.webrtc.org/home</a><br>
+Strona orginalengo artukułu: <a href="http://www.html5rocks.com/en/tutorials/getusermedia/intro/">http://www.html5rocks.com/en/tutorials/getusermedia/intro/</a><br>
+W przyszłości: <a href="http://www.youtube.com/watch?v=vL82X3M5H8A">http://www.youtube.com/watch?v=vL82X3M5H8A</a><br>
+
 			</section>
 			<form action="#" method="post">
 				<h3>Napisz Komentarz</h3>
